@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <img className="logo" src={require("../../assets/ko.png")} alt="" />
       <div className="desktopMenu">
         <Link className="desktopMenuListItem">Home</Link>
         <Link className="desktopMenuListItem">About</Link>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Typewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 import bg from "../../assets/ProfilePic.png";
 import "./intro.css";
 
