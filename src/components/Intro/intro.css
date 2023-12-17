@@ -1,0 +1,61 @@
+#intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bg {
+  object-fit: cover;
+  width: 12rem;
+  height: 15rem;
+  border-radius: 100rem;
+}
+
+.introContent {
+  flex: 1;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .introContent {
+    text-align: center;
+    padding: 2rem;
+  }
+}
+
+.hello {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.introName {
+  font-size: 2rem;
+}
+
+.typewriter {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.introParagraph {
+  font-size: medium;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
