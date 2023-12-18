@@ -8,11 +8,11 @@ const Navbar = () => {
     <nav className="navbar">
       <img className="logo" src={require("../../assets/ko.png")} alt="" />
       <div className="desktopMenu">
-        <Link className="desktopMenuListItem">Home</Link>
         <Link className="desktopMenuListItem">About</Link>
+        <Link className="desktopMenuListItem">Skills</Link>
         <Link className="desktopMenuListItem">Resume</Link>
         <Link className="desktopMenuListItem">Portfolio</Link>
-        <Link className="desktopMenuListItem">Clients</Link>
+        <Link className="desktopMenuListItem">Contact</Link>
       </div>
       <button className="desktopMenuBtn">
         <img src={contactImg} alt="ContactImage" className="desktopMenuImg" />
