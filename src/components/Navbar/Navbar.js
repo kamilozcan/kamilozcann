@@ -11,16 +11,17 @@ const Navbar = () => {
       <a href="/">
         <img className="logo" src={require("../../assets/ko.png")} alt="" />
       </a>
+
       <div className="desktopMenu">
-        <NavLink activeClass="active" to="/" className="desktopMenuListItem">
+        <NavLink activeclass="active" to="/" spy={true} className="desktopMenuListItem">
           About
         </NavLink>
-        {/* <NavLink activeClass="active" spy={true} to="/skills" className="desktopMenuListItem">
+        {/* <NavLink activeclass="active" spy={true} to="/skills" className="desktopMenuListItem">
           Skills
         </NavLink> */}
         {/* <Link className="desktopMenuListItem">Resume</Link> */}
         <NavLink
-          activeClass="active"
+          activeclass="active"
           spy={true}
           to="/portfolio"
           className="desktopMenuListItem"
@@ -28,7 +29,7 @@ const Navbar = () => {
           Portfolio
         </NavLink>
         <NavLink
-          activeClass="active"
+          activeclass="active"
           spy={true}
           to="/contact"
           className="desktopMenuListItem"
@@ -47,7 +48,6 @@ Text
         <img src={contactImg} alt="ContactImage" className="desktopMenuImg" />
         Contact Me
       </button> */}
-      
     </nav>
   );
 };

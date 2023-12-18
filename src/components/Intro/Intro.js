@@ -25,6 +25,7 @@ const Intro = () => {
                 "active-learner",
                 "team player",
                 "proactive",
+                "self-starter",
                 "human",
               ]}
               loop={0}
