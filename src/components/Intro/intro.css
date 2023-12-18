@@ -14,6 +14,22 @@
   border-radius: 100rem;
 }
 
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.socialLinks a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.socialLinks a:hover {
+  color: #d17842;
+}
+
 .introContent {
   flex: 1;
   padding: 2rem;

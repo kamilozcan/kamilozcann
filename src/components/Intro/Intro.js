@@ -1,5 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 import bg from "../../assets/ProfilePic.png";
 import "./intro.css";
 // import TextSphere from "../TextShpere/TextShpere";
@@ -47,6 +49,22 @@ const Intro = () => {
       </div>
       <div>
         <img src={bg} alt="ProfilePic" className="bg" />
+        <div className="socialLinks">
+          <a
+            href="https://www.linkedin.com/in/kamilozcan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="socialIcon" />
+          </a>
+          <a
+            href="https://github.com/kamilozcan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="socialICon" />
+          </a>
+        </div>
       </div>
       {/* <span className="tag-cloud-container">
         <TextSphere />
