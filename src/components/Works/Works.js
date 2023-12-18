@@ -11,11 +11,11 @@ const Works = () => {
       </span>
 
       <div className="worksImgs">
-        <img
+        {/* <img
           src={require("../../assets/NYPS/NYPSImg.jpg")}
           alt="NewYorkPedicabServices"
           className="worksImg"
-        />
+        /> */}
         <img
           src={require("../../assets/RocElev/AppIcon.png")}
           alt="RocketElevator"

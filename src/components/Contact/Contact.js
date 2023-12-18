@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./contact.css"
+import "./contact.css";
 
 const Contact = () => {
   return (
@@ -23,7 +23,6 @@ const Contact = () => {
         <button type="submit" value="Send" className="submitBtn">
           Submit
         </button>
-        
       </div>
     </section>
   );
