@@ -50,3 +50,9 @@
   width: 1rem;
   margin-right: 0.5rem;
 }
+
+.active {
+  color: #d17842;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #d17842;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import "./navbar.css";
-import contactImg from "../../assets/contact.jpg";
+// import contactImg from "../../assets/contact.jpg";
 // import { Link } from "react-scroll";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,23 +12,36 @@ const Navbar = () => {
         <img className="logo" src={require("../../assets/ko.png")} alt="" />
       </a>
       <div className="desktopMenu">
-        <Link
-          // activeClass="active"
-          to="/"
+        <NavLink activeClass="active" to="/" className="desktopMenuListItem">
+          About
+        </NavLink>
+        {/* <NavLink activeClass="active" spy={true} to="/skills" className="desktopMenuListItem">
+          Skills
+        </NavLink> */}
+        {/* <Link className="desktopMenuListItem">Resume</Link> */}
+        <NavLink
+          activeClass="active"
+          spy={true}
+          to="/portfolio"
           className="desktopMenuListItem"
         >
-          About
-        </Link>
-        <Link to="/skills" className="desktopMenuListItem">
-          Skills
-        </Link>
-        {/* <Link className="desktopMenuListItem">Resume</Link> */}
-        <Link to="/portfolio" className="desktopMenuListItem">
           Portfolio
-        </Link>
-        <Link to="/contact" className="desktopMenuListItem">
+        </NavLink>
+        <NavLink
+          activeClass="active"
+          spy={true}
+          to="/contact"
+          className="desktopMenuListItem"
+        >
           Contact
-        </Link>
+        </NavLink>
+        {/* <NavLink
+        activeClass="active"
+        spy={true}
+        to="/text"
+        className="desktopMenuListItem" >
+Text
+        </NavLink> */}
       </div>
       {/* <button className="desktopMenuBtn">
         <img src={contactImg} alt="ContactImage" className="desktopMenuImg" />

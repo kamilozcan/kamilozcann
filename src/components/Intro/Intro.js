@@ -2,6 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import bg from "../../assets/ProfilePic.png";
 import "./intro.css";
+// import TextSphere from "../TextShpere/TextShpere";
 
 const Intro = () => {
   return (
@@ -13,7 +14,7 @@ const Intro = () => {
         </span>
         <span className="typewriter">
           and I'm a{" "}
-          <span style={{ color: "red", fontWeight: "bold" }}>
+          <span style={{ color: "#d17842", fontWeight: "bold" }}>
             <Typewriter
               words={[
                 "Software Developer",
@@ -30,7 +31,7 @@ const Intro = () => {
             />
           </span>
         </span>
-        <span></span>
+
         <span>
           <p className="introParagraph">
             Software developer with a focus on web and app development. <br />I
@@ -47,6 +48,9 @@ const Intro = () => {
       <div>
         <img src={bg} alt="ProfilePic" className="bg" />
       </div>
+      {/* <span className="tag-cloud-container">
+        <TextSphere />
+      </span> */}
     </section>
   );
 };

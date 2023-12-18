@@ -5,10 +5,11 @@ import Contact from "./components/Contact/Contact";
 // import Footer from "./components/Footer/Footer";
 import Intro from "./components/Intro/Intro";
 // import Navbar from "./components/Navbar/Navbar";
-import Skills from "./components/Skills/Skills";
+// import Skills from "./components/Skills/Skills";
 import Works from "./components/Works/Works";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+// import TextShpere from "./components/TextShpere/TextShpere";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Intro />} />
-          <Route path="/skills" element={<Skills />} />
+          {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/portfolio" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/text" element={<TextShpere />} /> */}
         </Routes>
       </Router>
       <Footer />
