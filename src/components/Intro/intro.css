@@ -1,9 +1,12 @@
+/* General styles */
 .mainContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5rem;
 }
+
 #intro {
   display: flex;
   justify-content: space-between;
@@ -46,21 +49,6 @@
   justify-content: center;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  #intro {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
-  }
-
-  .introContent {
-    text-align: center;
-    padding: 2rem;
-  }
-}
-
 .hello {
   font-size: 1.2rem;
   font-weight: 100;
@@ -87,4 +75,54 @@
   justify-content: center;
   align-items: center;
   height: 30rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  #intro {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .bg {
+    width: 10rem;
+    height: 12.5rem;
+    margin-top: 2rem;
+  }
+
+  .socialLinks {
+    margin-top: 1rem;
+  }
+
+  .introContent {
+    text-align: center;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .introParagraph {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .introContent {
+    font-size: 1.5rem;
+  }
+
+  .introParagraph {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .introContent {
+    font-size: 1.5rem;
+  }
+
+  .introParagraph {
+    font-size: 0.9rem;
+  }
 }
