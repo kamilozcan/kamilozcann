@@ -159,7 +159,7 @@ h1 {
     margin-top: 0; /* Removing extra top margin */
   }
   .description {
-    font-size: 0.8rem; /* Slight reduction in font size */
+    font-size: 0.8rem; /*  reduction in font size */
     letter-spacing: 1px;
   }
 }
