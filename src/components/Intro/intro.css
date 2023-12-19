@@ -1,3 +1,9 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #intro {
   display: flex;
   justify-content: space-between;
@@ -76,10 +82,9 @@
   letter-spacing: 1px;
 }
 
-/* .tag-cloud-container {
+.tag-cloud-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30rem;
-  margin-top: 1rem; 
-} */
+}

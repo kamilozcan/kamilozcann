@@ -43,6 +43,12 @@ const Navbar = () => {
         className="desktopMenuListItem" >
 Text
         </NavLink> */}
+        {/* <NavLink activeClass="active"
+        spy={true}
+        to="/timeline"
+        className="desktopMenuListItem">
+Timeline
+        </NavLink> */}
       </div>
       {/* <button className="desktopMenuBtn">
         <img src={contactImg} alt="ContactImage" className="desktopMenuImg" />

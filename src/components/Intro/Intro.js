@@ -4,11 +4,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import bg from "../../assets/ProfilePic.png";
 import "./intro.css";
-// import TextSphere from "../TextShpere/TextShpere";
+import TextSphere from "../TextShpere/TextShpere";
 
 const Intro = () => {
   return (
-    <section id="intro">
+    <div className="mainContainer">
+      <section id="intro">
       <div className="introContent">
         <span className="hello">Hi! I'm</span>
         <span className="introText">
@@ -67,10 +68,13 @@ const Intro = () => {
           </a>
         </div>
       </div>
-      {/* <span className="tag-cloud-container">
-        <TextSphere />
-      </span> */}
+      
     </section>
+    <div className="tag-cloud-container">
+        <TextSphere />
+      </div>
+    </div>
+    
   );
 };
 
