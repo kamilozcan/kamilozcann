@@ -11,32 +11,54 @@ const Intro = () => {
   return (
     <div className="mainContainer">
       <section id="intro">
-        <div className="introContent">
-          <span className="hello">Hi! I'm</span>
-          <span className="introText">
-            <span className="introName">Kamil Ozcan</span> <br />
-          </span>
-          <span className="typewriter">
-            and I'm a{" "}
-            <span style={{ color: "#d17842", fontWeight: "bold" }}>
-              <Typewriter
-                words={[
-                  "Software Developer",
-                  "curious mind",
-                  "detail-oriented",
-                  "active-learner",
-                  "team player",
-                  "proactive",
-                  "self-starter",
-                  "human",
-                ]}
-                loop={0}
-                deleteSpeed={1}
-                cursorStyle="|"
-              />
+        <div className="introWrapper">
+          <div className="introContent">
+            <span className="hello">Hi! I'm</span>
+            <span className="introText">
+              <span className="introName">Kamil Ozcan</span> <br />
             </span>
-          </span>
-
+            <span className="typewriter">
+              and I'm a{" "}
+              <span style={{ color: "#d17842", fontWeight: "bold" }}>
+                <Typewriter
+                  words={[
+                    "Software Developer",
+                    "curious mind",
+                    "detail-oriented",
+                    "active-learner",
+                    "team player",
+                    "proactive",
+                    "self-starter",
+                    "human",
+                  ]}
+                  loop={0}
+                  deleteSpeed={1}
+                  cursorStyle="|"
+                />
+              </span>
+            </span>
+          </div>
+          <div>
+            <img src={bg} alt="ProfilePic" className="bg" />
+            <div className="socialLinks">
+              <a
+                href="https://www.linkedin.com/in/kamilozcan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="socialIcon" />
+              </a>
+              <a
+                href="https://github.com/kamilozcan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub className="socialICon" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div style={{padding: '2rem'}}>
           <span>
             <p className="introParagraph">
               Software developer with a focus on web and app development. I have
@@ -48,29 +70,7 @@ const Intro = () => {
             </p>
           </span>
         </div>
-        <div>
-          <img src={bg} alt="ProfilePic" className="bg" />
-          <div className="socialLinks">
-            <a
-              href="https://www.linkedin.com/in/kamilozcan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin className="socialIcon" />
-            </a>
-            <a
-              href="https://github.com/kamilozcan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="socialICon" />
-            </a>
-          </div>
-        </div>
       </section>
-      {/* <div className="tag-cloud-container">
-        <TextSphere />
-      </div> */}
       <div>
         <TimeLine />
       </div>

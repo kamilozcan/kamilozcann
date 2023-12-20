@@ -9,11 +9,12 @@
 
 #intro {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   max-width: 75rem;
   margin: 10rem auto;
   overflow: hidden;
+  row-gap: 2rem;
 }
 
 .bg {
@@ -47,6 +48,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+}
+
+.introWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .hello {
@@ -80,7 +89,7 @@
 /* Media queries for responsive design */
 @media (max-width: 768px) {
   #intro {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 0;
@@ -100,6 +109,12 @@
     text-align: center;
     padding: 0;
     font-size: 2rem;
+  }
+
+  .introWrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
 
   .introParagraph {

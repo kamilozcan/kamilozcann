@@ -34,6 +34,7 @@ h1 {
   flex-direction: row;
   justify-content: flex-start;
   margin-bottom: 2rem; /* Adjust the vertical space between items */
+  border-left: 2px red solid;
 }
 
 /* Timeline content */
@@ -45,14 +46,14 @@ h1 {
 }
 
 /* Vertical line */
-.timeline-item::before {
+/* .timeline-item::before {
   content: "";
   position: absolute;
-  background-color: rgb(50, 50, 50); /* Adjust line color */
-  width: 0.2rem; /* Adjust line thickness */
+  background-color: rgb(50, 50, 50); 
+  width: 0.2rem; 
   height: calc(100% - 5rem);
   top: 5rem;
-}
+} */
 
 /* Title */
 .timeline-content h2 {
@@ -94,18 +95,19 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 1.5rem;
+    border-left: 0.25rem red solid;
   }
   .timeline-content {
     width: 100%;
     max-width: 100%;
     padding-left: 0;
   }
-  .timeline-item::before {
-    position: absolute; /* Keeping the position of the vertical line */
-    width: 0.2rem; /* Maintaining the thickness of the line */
-    height: 95%; /* Preserving the line's height */
-    top: 5rem; /* Keeping the position of the line from the top */
-  }
+  /* .timeline-item::before {
+    position: absolute; 
+    width: 0.2rem; 
+    height: 95%; 
+    top: 5rem; 
+  } */
   .link,
   .summary {
     font-size: 0.9rem; /* Adjusting font size */
@@ -119,8 +121,6 @@ h1 {
     font-size: 0.8rem; /* Slight reduction in font size */
     letter-spacing: 1px;
   }
-}
-@media (max-width: 768px) {
   .timeline {
     font-size: 1.2rem;
   }
@@ -140,15 +140,15 @@ h1 {
     max-width: 100%;
     padding-left: 0;
   }
-  .timeline-item::before {
+  /* .timeline-item::before {
     content: "";
     position: absolute;
     background-color: rgb(50, 50, 50);
     width: 0.2rem;
-    height: calc(100% - 1rem); /* Adjust height to fit within padding */
-    top: 1rem; /* Adjust the top position */
-    left: 0; /* Keep the line flush with the left edge */
-  }
+    height: calc(100% - 1rem); 
+    top: 1rem; /
+    left: 0; 
+  } */
   .link,
   .summary {
     font-size: 0.9rem; /* Adjusting font size */

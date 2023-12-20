@@ -22,7 +22,7 @@ function App() {
           {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/portfolio" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/text" element={<TextShpere />} /> */}
+          <Route path="/text" element={<TextShpere />} />
           {/* <Route path="/timeline" element={<Timeline />} /> */}
         </Routes>
         <Footer />

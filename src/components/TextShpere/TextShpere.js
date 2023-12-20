@@ -47,11 +47,9 @@ const TextSphere = () => {
   }, []); // Empty dependency array to run this effect only once
 
   return (
-    
-      <div className="text-sphere">
-        <span ref={tagCloudRef} className="tagcloud"></span>
-      </div>
-    
+    <div className="text-sphere">
+      <span ref={tagCloudRef}></span>
+    </div>
   );
 };
 
