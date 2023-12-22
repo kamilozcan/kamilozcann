@@ -9,8 +9,8 @@ import Intro from "./components/Intro/Intro";
 import Works from "./components/Works/Works";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import TextShpere from "./components/TextShpere/TextShpere";
 import Timeline from "./components/TimeLine/TimeLine";
+import TextSphere from "./components/TextShpere/TextSphere";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/portfolio" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/text" element={<TextShpere />} />
+          <Route path="/text" element={<TextSphere />} />
           {/* <Route path="/timeline" element={<Timeline />} /> */}
         </Routes>
         <Footer />

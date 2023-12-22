@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import bg from "../../assets/ProfilePic.png";
 import "./intro.css";
-import TextSphere from "../TextShpere/TextShpere";
+import TextSphere from "../TextShpere/TextSphere";
 import TimeLine from "../TimeLine/TimeLine";
 
 const Intro = () => {
@@ -37,6 +37,16 @@ const Intro = () => {
                 />
               </span>
             </span>
+            <span>
+              <p className="introParagraph">
+                Software developer with a focus on web and app development. I
+                have a knack for simplifying intricate challenges and creating
+                software solutions that are as functional as they are visually
+                appealing. With proficiency in various programming languages and
+                tools, I'm passionate about turning your software concepts into
+                user-friendly and attractive applications.
+              </p>
+            </span>
           </div>
           <div>
             <img src={bg} alt="ProfilePic" className="bg" />
@@ -58,19 +68,13 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div style={{padding: '2rem'}}>
-          <span>
-            <p className="introParagraph">
-              Software developer with a focus on web and app development. I have
-              a knack for simplifying intricate challenges and creating software
-              solutions that are as functional as they are visually appealing.
-              With proficiency in various programming languages and tools, I'm
-              passionate about turning your software concepts into user-friendly
-              and attractive applications.
-            </p>
-          </span>
-        </div>
+        {/* <div style={{padding: '2rem'}}>
+                If I want to change - I will add paragraph here
+        </div> */}
       </section>
+      <div>
+        <TextSphere />
+      </div>
       <div>
         <TimeLine />
       </div>

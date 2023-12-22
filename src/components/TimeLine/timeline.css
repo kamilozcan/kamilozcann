@@ -24,7 +24,7 @@ h1 {
   justify-content: center;
   align-items: center;
   max-width: 75rem;
-  margin: 0 auto;
+  margin: -5rem auto;
   overflow: hidden;
 }
 
@@ -34,7 +34,7 @@ h1 {
   flex-direction: row;
   justify-content: flex-start;
   margin-bottom: 2rem; /* Adjust the vertical space between items */
-  border-left: 2px red solid;
+  border-left: 1px red solid;
 }
 
 /* Timeline content */
@@ -95,45 +95,8 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 1.5rem;
-    border-left: 0.25rem red solid;
-  }
-  .timeline-content {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 0;
-  }
-  /* .timeline-item::before {
-    position: absolute; 
-    width: 0.2rem; 
-    height: 95%; 
-    top: 5rem; 
-  } */
-  .link,
-  .summary {
-    font-size: 0.9rem; /* Adjusting font size */
-  }
-  .date {
-    font-size: 0.8rem;
-    margin-left: 0.2rem; /* Reverting left margin */
-    margin-top: 0; /* Removing extra top margin */
-  }
-  .description {
-    font-size: 0.8rem; /* Slight reduction in font size */
-    letter-spacing: 1px;
-  }
-  .timeline {
-    font-size: 1.2rem;
-  }
-  h1 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-  }
-  .timeline-item {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
     position: relative; /* Add relative positioning */
-    padding-left: 2rem; /* Add padding to create space */
+    padding-left: 1rem; /* Add padding to create space */
   }
   .timeline-content {
     width: 100%;

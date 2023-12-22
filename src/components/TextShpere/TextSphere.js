@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import TagCloud from "TagCloud"; // Ensure that TagCloud is imported correctly
 
-import "./textshpere.css";
+import "./textsphere.css";
 
 const TextSphere = () => {
   const tagCloudRef = useRef(null);
