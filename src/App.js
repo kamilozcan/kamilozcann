@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Timeline from "./components/TimeLine/TimeLine";
 import TextSphere from "./components/TextShpere/TextSphere";
+import CoffeeApp from "./components/Works/CoffeeApp/CoffeeApp";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/text" element={<TextSphere />} />
           {/* <Route path="/timeline" element={<Timeline />} /> */}
+          <Route path="/coffeeApp" element={<CoffeeApp />} />
         </Routes>
         <Footer />
       </Router>

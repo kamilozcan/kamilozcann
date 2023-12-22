@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./works.css";
+import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
@@ -17,25 +18,27 @@ const Works = () => {
           className="worksImg"
         /> */}
         <img
-          src={require("../../assets/RocElev/AppIcon.png")}
+          src="/assets/RocElev/AppIcon.png"
           alt="RocketElevator"
           className="worksImg"
         />
         <img
-          src={require("../../assets/TT/project-typing.png")}
+          src="/assets/TT/project-typing.png"
           alt="TouchTyping"
           className="worksImg"
         />
         <img
-          src={require("../../assets/Movies/MovieAppPic.PNG")}
+          src="/assets/Movies/MovieAppPic.PNG"
           alt="MovieApplication"
           className="worksImg"
         />
-        <img
-          src={require("../../assets/Coffees/coffee.all.PNG")}
-          alt="CoffeeApplication"
-          className="worksImg"
-        />
+        <Link to="/coffeeApp">
+          <img
+            src="/assets/Coffees/coffee.all.PNG"
+            alt="CoffeeApplication"
+            className="worksImg"
+          />
+        </Link>
       </div>
       {/* <button className="worksBtn">See More</button> */}
     </section>

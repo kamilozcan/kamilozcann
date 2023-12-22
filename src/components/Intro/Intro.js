@@ -2,7 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-import bg from "../../assets/ProfilePic.png";
+// import bg from "/assets/ProfilePic.png";
 import "./intro.css";
 import TextSphere from "../TextShpere/TextSphere";
 import TimeLine from "../TimeLine/TimeLine";
@@ -49,7 +49,7 @@ const Intro = () => {
             </span>
           </div>
           <div>
-            <img src={bg} alt="ProfilePic" className="bg" />
+            <img src="/assets/ProfilePic.png" alt="ProfilePic" className="bg" />
             <div className="socialLinks">
               <a
                 href="https://www.linkedin.com/in/kamilozcan"

@@ -1,0 +1,41 @@
+#coffeeApp {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.worksTitle {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.source {
+  margin: 2rem auto;
+}
+
+.source a {
+  color: #d17842;
+}
+
+.portfolioImgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+.portfolioImg {
+  object-fit: cover;
+  height: 20rem;
+  margin: 1rem;
+  width: 10rem;
+}

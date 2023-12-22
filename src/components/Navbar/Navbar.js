@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="/">
-        <img className="logo" src={require("../../assets/ko.png")} alt="" />
+        <img className="logo" src="/assets/ko.png" alt="logo" />
       </a>
 
       <div className="desktopMenu">
