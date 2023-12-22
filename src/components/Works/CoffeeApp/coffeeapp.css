@@ -12,7 +12,7 @@
 }
 
 .worksTitle {
-  margin: 0 auto;
+  margin:  auto;
   font-size: 2rem;
 }
 
@@ -22,6 +22,10 @@
 
 .source a {
   color: #d17842;
+}
+
+.description {
+  margin: 2rem auto;
 }
 
 .portfolioImgs {
@@ -35,7 +39,7 @@
 
 .portfolioImg {
   object-fit: cover;
-  height: 20rem;
+  height: 30rem;
   margin: 1rem;
-  width: 10rem;
+  width: 15;
 }
