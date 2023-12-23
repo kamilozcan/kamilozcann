@@ -47,8 +47,19 @@
   font-size: 1rem;
 }
 
+@media screen and (max-width: 710px) {
+  .worksDesc {
+    font-size: 0.8rem;
+  }
+  .worksImg {
+    height: 20vw;
+    width: 40vw;
+  }
+}
+
 @media screen and (max-width: 590px) {
   .worksImg {
-    height: 48vw;
+    height: 20vw;
+    width: 40vw;
   }
 }

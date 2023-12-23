@@ -6,7 +6,7 @@ const CoffeeApp = () => {
   return (
     <section id="coffeeApp">
       <h2 className="worksTitle">Coffee App</h2>
-      <span>
+      <span className="note">
         <p style={{ color: "red" }}>(This project is in progress)</p>
       </span>
       <span className="source">

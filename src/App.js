@@ -12,6 +12,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Timeline from "./components/TimeLine/TimeLine";
 import TextSphere from "./components/TextShpere/TextSphere";
 import CoffeeApp from "./components/Works/CoffeeApp/CoffeeApp";
+import RocketElevator from "./components/Works/RocketElevator/RocketElevator";
+import MovieSearchApp from "./components/Works/MovieSearchApp/MovieSearchApp";
+import TouchTyping from "./components/Works/TouchTyping/TouchTyping";
 
 function App() {
   return (
@@ -25,7 +28,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/text" element={<TextSphere />} />
           {/* <Route path="/timeline" element={<Timeline />} /> */}
-          <Route path="/coffeeApp" element={<CoffeeApp />} />
+          <Route path="/rocketelevator" element={<RocketElevator />} />
+          <Route path="/touchtyping" element={<TouchTyping />} />
+          <Route path="/movieapp" element={<MovieSearchApp />} />
+          <Route path="/coffeeapp" element={<CoffeeApp />} />
         </Routes>
         <Footer />
       </Router>

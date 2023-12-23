@@ -1,0 +1,61 @@
+#touchTyping {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.worksTitle {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.source {
+  margin: 2rem auto;
+}
+
+.source a {
+  color: #d17842;
+}
+
+.description {
+  margin: 2rem auto;
+}
+
+.portfolioImgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+.portfolioVideoWeb {
+  object-fit: cover;
+  height: 25rem;
+  width: 50rem;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+  .portfolioVideoWeb {
+    height: 40vh;
+    width: 80vw;
+  }
+  .note {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .worksTitle {
+    font-size: 1.8rem;
+  }
+}

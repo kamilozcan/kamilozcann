@@ -17,22 +17,29 @@ const Works = () => {
           alt="NewYorkPedicabServices"
           className="worksImg"
         /> */}
-        <img
-          src="/assets/RocElev/AppIcon.png"
-          alt="RocketElevator"
-          className="worksImg"
-        />
-        <img
-          src="/assets/TT/project-typing.png"
-          alt="TouchTyping"
-          className="worksImg"
-        />
-        <img
-          src="/assets/Movies/MovieAppPic.PNG"
-          alt="MovieApplication"
-          className="worksImg"
-        />
-        <Link to="/coffeeApp">
+        <Link to="/rocketelevator">
+          <img
+            src="/assets/RocElev/AppIcon.png"
+            alt="RocketElevator"
+            className="worksImg"
+          />
+        </Link>
+        <Link to="/touchtyping">
+          <img
+            src="/assets/TT/project-typing.png"
+            alt="TouchTyping"
+            className="worksImg"
+          />
+        </Link>
+        <Link to="/movieapp">
+          <img
+            src="/assets/Movies/MovieAppPic.PNG"
+            alt="MovieApplication"
+            className="worksImg"
+          />
+        </Link>
+
+        <Link to="/coffeeapp">
           <img
             src="/assets/Coffees/coffee.all.PNG"
             alt="CoffeeApplication"
